@@ -1,0 +1,92 @@
+<!DOCTYPE html>    <!--어떤 방식으로 쓰인 html인지 -->
+<html>
+
+<head>
+  <title>자유게시판</title>
+  <meta charset='utf-8'>  <!--글씨가 깨지지 않도록-->
+  <meta name='description' content = '자유게시판'>
+  <style>
+    table {
+    width: 90%;
+    text-align: center;
+    border-collapse: seperate;
+
+    table-layout:fixed;word-break:break-all;
+    font-size: 1.7em;
+    margin:auto;
+    border-top-left-radius: 60px; border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px; border-bottom-right-radius: 0px;
+    position: relative;
+    bottom : 70px;
+    z-index: 4
+    }
+
+    td {
+      font-family: HY견고딕;
+      color: #434343;
+    }
+    #logoimage{
+      position: relative;
+      left : 25px;
+      top : 25px;
+      z-index: 5;
+    }
+    .rectangleforcontents {
+    border: white hidden;
+    border-radius: 0%;
+    width: 1375px;
+    background-color: #FFFFFF;
+    margin : auto;
+    bottom : 50px;
+    position: relative;
+  }
+  .bugreport {
+  margin : auto;
+  position: absolute;
+  bottom: 500px;
+}
+a:link {
+ color: #434343;
+ text-decoration: none;
+}
+a:visited {
+ color: #434343;
+ text-decoration: none;
+}
+a:hover {
+ color: #434343;
+ text-decoration: none;
+}
+a:active {
+ color: #434343;
+ text-decoration: none;
+}
+
+  </style>
+
+</head>
+
+<body bgcolor = #F7F7F7>
+  <a href = 'basescreen.html'> <img id=logoimage src="/jpg/schoolweblogo.png" height='100' alt="로고" title='logo'></a>
+  <table border = '0' height = '70'>
+    <tr>
+      <td> </td> <td><a href = 'lecturelist.html'>강의 목록</a></td>
+      <td><a href = 'bulletinboard.html'style = "color: #EEC600">자유 게시판</a></td>
+       <td><a href = 'unknown.html'>출석 체크</a></td>
+       <td><a href = 'personalsettings.html'>개인 설정</a></td>
+    </tr>
+  </table>
+  <br>
+  <div class="rectangleforcontents">
+    환영합니다!
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+  </div>
+
+
+
+
+</body>
+
+
+</html>
