@@ -1,0 +1,100 @@
+<!DOCTYPE html>    <!--어떤 방식으로 쓰인 html인지 -->
+<html>
+
+<head>
+  <title>로그인 후 기본화면</title>
+  <meta charset='utf-8'>  <!--글씨가 깨지지 않도록-->
+  <meta name='description' content = '기본화면'>
+  <style>
+    table {
+    width: 60%;
+    text-align: center;
+    border-collapse: seperate;
+
+    table-layout:fixed;word-break:break-all;
+    font-size: 1.5em;
+    margin:auto;
+    border-top-left-radius: 60px; border-top-right-radius: 60px;
+    border-bottom-left-radius: 0px; border-bottom-right-radius: 0px;
+    position: relative;
+    top : 20px;
+    z-index: 4
+    }
+
+    td {
+      font-family: HY견고딕 , sans-serif;
+      color: #646464;
+    }
+    #logoimage{
+      display : block;
+      margin : auto;
+      top : 50px;
+      z-index: 5;
+    }
+    #meetingimage {
+      margin-right: 20px; margin-bottom: 20px;
+      margin-left : 20px;
+    }
+    .rectangleforcontents {
+    border: white hidden;
+    border-radius: 0%;
+    width: 1375px;
+    background-color: #FFF6C4;
+    margin : auto;
+    bottom : 50px;
+    position: relative;
+    top : 50px;
+    font-family: HY견고딕 , sans-serif;
+    font-size: 1.1em;
+  }
+  .bugreport {
+  position: relative;
+  top : 100px;
+  text-align : right
+}
+
+a:link {
+ color: #646464;
+ text-decoration: none;
+}
+a:visited {
+ color: #646464;
+ text-decoration: none;
+}
+a:hover {
+ color: #646464;
+ text-decoration: none;
+}
+a:active {
+ color: #646464;
+ text-decoration: none;
+}
+
+  </style>
+
+</head>
+
+<body bgcolor = #F7F7F7>
+  <br>
+  <a href = 'basescreen.html'> <img id=logoimage src="/jpg/schoolweblogo.png" height='170' alt="로고" title='logo'></a>
+  <table border = '0' height = '50'>
+    <tr>
+      <td><a href = 'lecturelist.html'>강의 목록</a></td> 
+      <td><a href = 'bulletinboard.html'>자유 게시판</a></td>
+       <td><a href = 'unknown.html'>출석 체크</a></td>
+       <td><a href = 'personalsettings.html'>개인 설정</a></td>
+    </tr>
+  </table>
+  <div class="rectangleforcontents">
+    <br>
+    <img src="/jpg/webmeeting.jpg" id=meetingimage height='400' alt="화상회의" title='webmeeting'align="top"> 홍익대학교 2022학년도 졸업프로젝트 3팀의 the school web이란... 설명 추가...
+    <br>
+  </div>
+  <div class="bugreport">
+    문제 발생시 연락주세요
+  </div>
+
+</body>
+
+
+</html>
